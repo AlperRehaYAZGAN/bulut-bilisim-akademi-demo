@@ -4,7 +4,7 @@
 
 ###  Seviye: Başlangıç
 
-Go dili, Google tarafından 2007 yılında geliştirilmeye başlayan ve açık kaynaklı olarak geliştirilmeler yapılan bir dildir. C dilinin güçlü yanlarını ve yapısallığını kendi içerisinde barındıran Go dili Container servislerinin yönetimi için kullanılan Docker uygulamasının da yapılmasında rol alınan dildir. Sizlerle bu senaryoda Go dili ile bir önceden yazılmış bir Dosya Yükleme Servisinin nasıl çalıştırılabileceğini öğrenecek ve kendi geliştirmelerde Go dilini nasıl kullanacağınızı gerçekleştireceğiz.  
+Go dili, Google tarafından 2007 yılında geliştirilmeye başlayan ve açık kaynaklı olarak geliştirilmeler yapılan bir dildir. C dilinin güçlü yanlarını ve yapısallığını kendi içerisinde barındıran Go dili Container servislerinin yönetimi için kullanılan Docker uygulamasının da yapılmasında rol alınan dildir. Sizlerle bu senaryoda Go dili ile bir önceden yazılmış bir [Dosya Yükleme Servisinin](https://github.com/AlperRehaYAZGAN/temp-file-transfer-app.git) nasıl çalıştırılabileceğini öğrenecek ve kendi geliştirmelerde Go dilini nasıl kullanacağınızı gerçekleştireceğiz.  
 
 #### Talimatlar  
 
