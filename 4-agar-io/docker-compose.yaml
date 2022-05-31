@@ -28,5 +28,4 @@ services:
       - "traefik.http.routers.alyaogarhttp.service=alyaogarservice"
       - "traefik.http.routers.alyaogarhttp.middlewares=http_to_https@docker"
       - "traefik.http.services.alyaogarservice.loadbalancer.server.port=8080"
-  # Hello World
  
