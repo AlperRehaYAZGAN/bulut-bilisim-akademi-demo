@@ -17,6 +17,9 @@ entryPoints:
   websecure:
     address: ":443"
 
+  traefik:
+    address: ":8080"
+
 certificatesResolvers:
   myresolver:
     acme:
