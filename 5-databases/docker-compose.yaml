@@ -4,7 +4,7 @@ version: '3'
 
 services:
   # postgresql
-  postgres:
+  postgresapp:
     image: postgres:9.6-alpine3.15
     ports:
       - "5432:5432"
@@ -14,7 +14,7 @@ services:
       - POSTGRES_DB=mydatabase
     restart: always
   # pgadmin
-  pgadmin:
+  pgadminapp:
     image: dpage/pgadmin4:latest
     ports:
       - "8080:80"
@@ -24,9 +24,3 @@ services:
       - PGADMIN_DEFAULT_EMAIL="user@domain.com"
       - PGADMIN_DEFAULT_PASSWORD="1020304050"
     restart: always
-
-# network: alyafnnet
-networks:
-  alyafnnet:
-    name: alyafnnet
-    driver: bridge
