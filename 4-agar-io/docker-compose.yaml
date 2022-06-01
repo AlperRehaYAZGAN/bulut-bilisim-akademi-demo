@@ -20,7 +20,7 @@ services:
     image: alperreha/ogar3:1.0.4
     container_name: ogarapp
     ports:
-      - "8080:8080"
+      - "9090:8080"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.alyaogarhttp.entrypoints=web"

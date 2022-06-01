@@ -19,7 +19,7 @@ services:
     image: rancher/minio-minio:RELEASE.2020-07-13T18-09-56Z
     container_name: cdnapp
     ports:
-      - "8000:8000" 
+      - "9000:9000" 
     environment:
       - "MINIO_ROOT_USER=miniominio"
       - "MINIO_ROOT_PASSWORD=miniominio"
