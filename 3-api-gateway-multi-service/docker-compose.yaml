@@ -28,7 +28,6 @@ services:
       - "traefik.http.routers.alyacdndashhttp.entrypoints=web"
       - "traefik.http.routers.alyacdndashhttp.rule=(PathPrefix(`/cdn`) || PathPrefix(`/minio`))"
       - "traefik.http.routers.alyacdndashhttp.service=alyacdndashservice"
-      - "traefik.http.routers.alyacdndashhttp.middlewares=http_to_https@docker"
       - "traefik.http.services.alyacdndashservice.loadbalancer.server.port=9000"
     restart: always
     # pass server /data to minio
@@ -44,7 +43,6 @@ services:
       - "traefik.http.routers.alyahellohttp.entrypoints=web"
       - "traefik.http.routers.alyahellohttp.rule=PathPrefix(`/hello`)"
       - "traefik.http.routers.alyahellohttp.service=alyahelloservice"
-      - "traefik.http.routers.alyahellohttp.middlewares=http_to_https@docker"
       - "traefik.http.services.alyahelloservice.loadbalancer.server.port=8000"
 
 

@@ -20,12 +20,3 @@ entryPoints:
   traefik:
     address: ":8080"
   
-
-certificatesResolvers:
-  myresolver:
-    acme:
-      email: alya@agar.example.com
-      storage: /acme_data/acme.json
-      httpChallenge:
-        # used during the challenge
-        entryPoint: web
