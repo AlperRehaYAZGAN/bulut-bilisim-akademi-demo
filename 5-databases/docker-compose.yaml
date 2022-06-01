@@ -19,7 +19,7 @@ services:
     ports:
       - "8080:80"
     depends_on:
-      - postgres
+      - postgresapp
     environment:
       - PGADMIN_DEFAULT_EMAIL="user@domain.com"
       - PGADMIN_DEFAULT_PASSWORD="1020304050"
