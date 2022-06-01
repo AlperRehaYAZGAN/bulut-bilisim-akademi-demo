@@ -26,10 +26,13 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.alyacdndashhttp.entrypoints=web"
-      - "traefik.http.routers.alyacdndashhttp.rule=PathPrefix(`/cdn`) || PathPrefix(`/minio`)"
+      - "traefik.http.routers.alyacdndashhttp.rule=(PathPrefix(`/cdn`) || PathPrefix(`/minio`))"
       - "traefik.http.routers.alyacdndashhttp.service=alyacdndashservice"
       - "traefik.http.routers.alyacdndashhttp.middlewares=http_to_https@docker"
       - "traefik.http.services.alyacdndashservice.loadbalancer.server.port=9000"
+    restart: always
+    # pass server /data to minio
+    command: server /data
   # Hello World
   helloworlddocker: # crccheck/hello-world
     image: crccheck/hello-world
