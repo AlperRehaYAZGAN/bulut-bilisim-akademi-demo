@@ -21,6 +21,6 @@ services:
     depends_on:
       - postgresapp
     environment:
-      - PGADMIN_DEFAULT_EMAIL="admin@bulutbilisimakademi.com"
-      - PGADMIN_DEFAULT_PASSWORD="1020304050"
+      - PGADMIN_DEFAULT_EMAIL=user@domain.com
+      - PGADMIN_DEFAULT_PASSWORD=1020304050
     restart: always
