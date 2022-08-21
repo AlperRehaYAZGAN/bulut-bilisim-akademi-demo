@@ -6,7 +6,7 @@
 
 Docker Container Runtime uygulaması kendi uygulama motoru ile Container Paketi haline getirilmiş uygulamaları çalıştırabilmekte ve deploy(dağıtıma çıkarma) operasyonlarını kolaylaştırabilmektedir. Bütün bu süreçleri kendi ana motoru ile yapan Docker sektörde bütün alanlarda hizmet veren uygulamaları destekleyen ve onları hizmet veren hale getirmiştir. Bu senaryomuzda sizlerle birlikte çok basit komutlarla [Postgres](https://www.postgresql.org/) veritabanını kuracağız ve admin arayüzü desteği veren [PgAdmin](https://www.pgadmin.org/) uygulaması ile veritabanına erişeceğiz.
 
-[Mimari](https://cdn.bulutbilisimakademi.com/public/images/pg/bba-scenario-pgadmin.png)
+[Mimari](https://cdn.bulutbilisimciler.com/public/images/pg/bba-scenario-pgadmin.png)
 
 #### Talimatlar  
 

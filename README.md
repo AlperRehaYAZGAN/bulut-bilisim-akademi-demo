@@ -1,5 +1,5 @@
-### Bulut Bilişim Akademi Örnek Senaryolar  
-Bu kaynak deposu Bulut Bilişim Akademi platformu için örnek senaryoları barındıran ve senaryo bilgilerini içeren depodur.  
+### Bulut Bilişimciler Örnek Senaryolar  
+Bu kaynak deposu Bulut Bilişimciler platformu için örnek senaryoları barındıran ve senaryo bilgilerini içeren depodur.  
 
 #### Senaryolar  
 Kolayca bilgisayarınıza kurup çalıştırabilmeniz için hazır config dosyalarının bulunduğu senaryo listesi:  
